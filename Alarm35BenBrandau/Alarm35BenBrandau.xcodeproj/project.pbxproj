@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF82ECAA24CF67A40098C77A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82ECA924CF67A40098C77A /* AppDelegate.swift */; };
+		BF82ECAC24CF67A40098C77A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82ECAB24CF67A40098C77A /* SceneDelegate.swift */; };
+		BF82ECB124CF67A40098C77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF82ECAF24CF67A40098C77A /* Main.storyboard */; };
+		BF82ECB324CF67A50098C77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF82ECB224CF67A50098C77A /* Assets.xcassets */; };
+		BF82ECB624CF67A50098C77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF82ECB424CF67A50098C77A /* LaunchScreen.storyboard */; };
+		BF82ECC124CF69160098C77A /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82ECC024CF69160098C77A /* Alarm.swift */; };
+		BF82ECC524CF6CC90098C77A /* AlarmListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82ECC424CF6CC90098C77A /* AlarmListTableViewController.swift */; };
+		BF82ECC724CF6F120098C77A /* AlarmDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82ECC624CF6F120098C77A /* AlarmDetailTableViewController.swift */; };
+		BF82ECCA24CF718D0098C77A /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82ECC924CF718D0098C77A /* SwitchTableViewCell.swift */; };
+		BF82ECCD24CF79340098C77A /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82ECCC24CF79340098C77A /* AlarmController.swift */; };
+		BF82ECD024CF7A000098C77A /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82ECCF24CF7A000098C77A /* DateExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF82ECA624CF67A40098C77A /* Alarm35BenBrandau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarm35BenBrandau.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF82ECA924CF67A40098C77A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF82ECAB24CF67A40098C77A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF82ECB024CF67A40098C77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF82ECB224CF67A50098C77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF82ECB524CF67A50098C77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF82ECB724CF67A50098C77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF82ECC024CF69160098C77A /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		BF82ECC424CF6CC90098C77A /* AlarmListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListTableViewController.swift; sourceTree = "<group>"; };
+		BF82ECC624CF6F120098C77A /* AlarmDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailTableViewController.swift; sourceTree = "<group>"; };
+		BF82ECC924CF718D0098C77A /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		BF82ECCC24CF79340098C77A /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
+		BF82ECCF24CF7A000098C77A /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF82ECA324CF67A40098C77A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF82EC9D24CF67A40098C77A = {
+			isa = PBXGroup;
+			children = (
+				BF82ECA824CF67A40098C77A /* Alarm35BenBrandau */,
+				BF82ECA724CF67A40098C77A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF82ECA724CF67A40098C77A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF82ECA624CF67A40098C77A /* Alarm35BenBrandau.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF82ECA824CF67A40098C77A /* Alarm35BenBrandau */ = {
+			isa = PBXGroup;
+			children = (
+				BF82ECBF24CF68470098C77A /* Models */,
+				BF82ECCE24CF79DD0098C77A /* Helpers */,
+				BF82ECBE24CF682D0098C77A /* Controllers */,
+				BF82ECC224CF6C920098C77A /* views */,
+				BF82ECBD24CF67C30098C77A /* resources */,
+				BF82ECB424CF67A50098C77A /* LaunchScreen.storyboard */,
+			);
+			path = Alarm35BenBrandau;
+			sourceTree = "<group>";
+		};
+		BF82ECBD24CF67C30098C77A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF82ECA924CF67A40098C77A /* AppDelegate.swift */,
+				BF82ECAB24CF67A40098C77A /* SceneDelegate.swift */,
+				BF82ECB224CF67A50098C77A /* Assets.xcassets */,
+				BF82ECB724CF67A50098C77A /* Info.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		BF82ECBE24CF682D0098C77A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF82ECCB24CF791A0098C77A /* Model Controller */,
+				BF82ECC324CF6C9A0098C77A /* view Controller */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BF82ECBF24CF68470098C77A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF82ECC024CF69160098C77A /* Alarm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF82ECC224CF6C920098C77A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BF82ECAF24CF67A40098C77A /* Main.storyboard */,
+				BF82ECC824CF713F0098C77A /* Custom Cells */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		BF82ECC324CF6C9A0098C77A /* view Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF82ECC424CF6CC90098C77A /* AlarmListTableViewController.swift */,
+				BF82ECC624CF6F120098C77A /* AlarmDetailTableViewController.swift */,
+			);
+			path = "view Controller";
+			sourceTree = "<group>";
+		};
+		BF82ECC824CF713F0098C77A /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BF82ECC924CF718D0098C77A /* SwitchTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		BF82ECCB24CF791A0098C77A /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF82ECCC24CF79340098C77A /* AlarmController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		BF82ECCE24CF79DD0098C77A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF82ECCF24CF7A000098C77A /* DateExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF82ECA524CF67A40098C77A /* Alarm35BenBrandau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF82ECBA24CF67A50098C77A /* Build configuration list for PBXNativeTarget "Alarm35BenBrandau" */;
+			buildPhases = (
+				BF82ECA224CF67A40098C77A /* Sources */,
+				BF82ECA324CF67A40098C77A /* Frameworks */,
+				BF82ECA424CF67A40098C77A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alarm35BenBrandau;
+			productName = Alarm35BenBrandau;
+			productReference = BF82ECA624CF67A40098C77A /* Alarm35BenBrandau.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF82EC9E24CF67A40098C77A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Ben Brandau";
+				TargetAttributes = {
+					BF82ECA524CF67A40098C77A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = BF82ECA124CF67A40098C77A /* Build configuration list for PBXProject "Alarm35BenBrandau" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF82EC9D24CF67A40098C77A;
+			productRefGroup = BF82ECA724CF67A40098C77A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF82ECA524CF67A40098C77A /* Alarm35BenBrandau */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF82ECA424CF67A40098C77A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82ECB624CF67A50098C77A /* LaunchScreen.storyboard in Resources */,
+				BF82ECB324CF67A50098C77A /* Assets.xcassets in Resources */,
+				BF82ECB124CF67A40098C77A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF82ECA224CF67A40098C77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82ECC724CF6F120098C77A /* AlarmDetailTableViewController.swift in Sources */,
+				BF82ECCD24CF79340098C77A /* AlarmController.swift in Sources */,
+				BF82ECCA24CF718D0098C77A /* SwitchTableViewCell.swift in Sources */,
+				BF82ECD024CF7A000098C77A /* DateExtension.swift in Sources */,
+				BF82ECAA24CF67A40098C77A /* AppDelegate.swift in Sources */,
+				BF82ECC524CF6CC90098C77A /* AlarmListTableViewController.swift in Sources */,
+				BF82ECAC24CF67A40098C77A /* SceneDelegate.swift in Sources */,
+				BF82ECC124CF69160098C77A /* Alarm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF82ECAF24CF67A40098C77A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF82ECB024CF67A40098C77A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF82ECB424CF67A50098C77A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF82ECB524CF67A50098C77A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF82ECB824CF67A50098C77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF82ECB924CF67A50098C77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF82ECBB24CF67A50098C77A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73V52F7L32;
+				INFOPLIST_FILE = Alarm35BenBrandau/resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Brandau.Alarm35BenBrandau;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF82ECBC24CF67A50098C77A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73V52F7L32;
+				INFOPLIST_FILE = Alarm35BenBrandau/resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Brandau.Alarm35BenBrandau;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF82ECA124CF67A40098C77A /* Build configuration list for PBXProject "Alarm35BenBrandau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF82ECB824CF67A50098C77A /* Debug */,
+				BF82ECB924CF67A50098C77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF82ECBA24CF67A50098C77A /* Build configuration list for PBXNativeTarget "Alarm35BenBrandau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF82ECBB24CF67A50098C77A /* Debug */,
+				BF82ECBC24CF67A50098C77A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF82EC9E24CF67A40098C77A /* Project object */;
+}
